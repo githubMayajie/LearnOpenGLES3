@@ -1,0 +1,73 @@
+{
+  "buildFiles": [
+    "/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/src/main/jni/Android.mk",
+    "/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/home/maxll/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/build/intermediates/ndkBuild/debug/lib clean"
+  ],
+  "libraries": {
+    "android_native_app_glue-debug-x86_64": {
+      "buildCommand": "/home/maxll/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/build/intermediates/ndkBuild/debug/lib /home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/build/intermediates/ndkBuild/debug/obj/local/x86_64/libandroid_native_app_glue.a",
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "android_native_app_glue",
+      "files": [
+        {
+          "src": "/home/maxll/Android/Sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c",
+          "flags": "\"-gcc-toolchain\" \"/home/maxll/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64\" \"-target\" \"x86_64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/android/native_app_glue\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/maxll/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include\""
+        }
+      ],
+      "output": "/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/build/intermediates/ndkBuild/debug/obj/local/x86_64/libandroid_native_app_glue.a"
+    },
+    "impl-debug-x86_64": {
+      "buildCommand": "/home/maxll/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/build/intermediates/ndkBuild/debug/lib /home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/build/intermediates/ndkBuild/debug/obj/local/x86_64/libimpl.so",
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "impl",
+      "files": [
+        {
+          "src": "/home/maxll/Android/Sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c",
+          "flags": "\"-gcc-toolchain\" \"/home/maxll/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64\" \"-target\" \"x86_64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/android/native_app_glue\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/maxll/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include\""
+        },
+        {
+          "src": "/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/src/main/jni/../../../../nativeCommon/Source/Android/esUtil_Android.c",
+          "flags": "\"-gcc-toolchain\" \"/home/maxll/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64\" \"-target\" \"x86_64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I.\" \"-I../../../../nativeCommon/Include\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/android/native_app_glue\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/cxx-stl/system/include\" \"-I/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/src/main/jni\" \"-DANDROID\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/maxll/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include\""
+        },
+        {
+          "src": "/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/src/main/jni/../../../../nativeCommon/Source/esShader.c",
+          "flags": "\"-gcc-toolchain\" \"/home/maxll/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64\" \"-target\" \"x86_64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I.\" \"-I../../../../nativeCommon/Include\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/android/native_app_glue\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/cxx-stl/system/include\" \"-I/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/src/main/jni\" \"-DANDROID\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/maxll/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include\""
+        },
+        {
+          "src": "/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/src/main/jni/../../../../nativeCommon/Source/esShapes.c",
+          "flags": "\"-gcc-toolchain\" \"/home/maxll/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64\" \"-target\" \"x86_64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I.\" \"-I../../../../nativeCommon/Include\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/android/native_app_glue\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/cxx-stl/system/include\" \"-I/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/src/main/jni\" \"-DANDROID\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/maxll/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include\""
+        },
+        {
+          "src": "/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/src/main/jni/../../../../nativeCommon/Source/esTransform.c",
+          "flags": "\"-gcc-toolchain\" \"/home/maxll/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64\" \"-target\" \"x86_64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I.\" \"-I../../../../nativeCommon/Include\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/android/native_app_glue\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/cxx-stl/system/include\" \"-I/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/src/main/jni\" \"-DANDROID\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/maxll/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include\""
+        },
+        {
+          "src": "/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/src/main/jni/../../../../nativeCommon/Source/esUtil.c",
+          "flags": "\"-gcc-toolchain\" \"/home/maxll/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64\" \"-target\" \"x86_64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I.\" \"-I../../../../nativeCommon/Include\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/android/native_app_glue\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/cxx-stl/system/include\" \"-I/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/src/main/jni\" \"-DANDROID\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/maxll/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include\""
+        },
+        {
+          "src": "/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/src/main/jni/main.cpp",
+          "flags": "\"-gcc-toolchain\" \"/home/maxll/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64\" \"-target\" \"x86_64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I.\" \"-I../../../../nativeCommon/Include\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/android/native_app_glue\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/cxx-stl/system/include\" \"-I/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/src/main/jni\" \"-DANDROID\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/maxll/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include\""
+        }
+      ],
+      "output": "/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/learnopengles7/build/intermediates/ndkBuild/debug/obj/local/x86_64/libimpl.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86_64": {
+      "cCompilerExecutable": "/home/maxll/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+      "cppCompilerExecutable": "/home/maxll/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

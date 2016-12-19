@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/helper" />
+            <option value="$PROJECT_DIR$/learnopengles10" />
+            <option value="$PROJECT_DIR$/learnopengles6" />
+            <option value="$PROJECT_DIR$/learnopengles6_vao" />
+            <option value="$PROJECT_DIR$/learnopengles7" />
+            <option value="$PROJECT_DIR$/learnopengles8" />
+            <option value="$PROJECT_DIR$/learnpengles9" />
+            <option value="$PROJECT_DIR$/opengles301" />
+            <option value="$PROJECT_DIR$/opengles301native" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

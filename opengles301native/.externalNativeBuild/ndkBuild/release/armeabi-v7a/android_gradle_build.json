@@ -1,0 +1,73 @@
+{
+  "buildFiles": [
+    "/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/src/main/jni/Android.mk",
+    "/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/home/maxll/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-18 NDK_OUT\u003d/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "libraries": {
+    "triangle-release-armeabi-v7a": {
+      "buildCommand": "/home/maxll/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-18 NDK_OUT\u003d/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/build/intermediates/ndkBuild/release/lib /home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libtriangle.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "triangle",
+      "files": [
+        {
+          "src": "/home/maxll/Android/Sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c",
+          "flags": "\"-gcc-toolchain\" \"/home/maxll/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/android/native_app_glue\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/maxll/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/include\""
+        },
+        {
+          "src": "/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/src/main/jni/../../../../nativeCommon/Source/Android/esUtil_Android.c",
+          "flags": "\"-gcc-toolchain\" \"/home/maxll/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-I.\" \"-I../../../../nativeCommon/Include\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/android/native_app_glue\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/cxx-stl/system/include\" \"-I/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/src/main/jni\" \"-DANDROID\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/maxll/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/include\""
+        },
+        {
+          "src": "/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/src/main/jni/../../../../nativeCommon/Source/esShader.c",
+          "flags": "\"-gcc-toolchain\" \"/home/maxll/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-I.\" \"-I../../../../nativeCommon/Include\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/android/native_app_glue\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/cxx-stl/system/include\" \"-I/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/src/main/jni\" \"-DANDROID\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/maxll/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/include\""
+        },
+        {
+          "src": "/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/src/main/jni/../../../../nativeCommon/Source/esShapes.c",
+          "flags": "\"-gcc-toolchain\" \"/home/maxll/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-I.\" \"-I../../../../nativeCommon/Include\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/android/native_app_glue\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/cxx-stl/system/include\" \"-I/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/src/main/jni\" \"-DANDROID\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/maxll/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/include\""
+        },
+        {
+          "src": "/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/src/main/jni/../../../../nativeCommon/Source/esTransform.c",
+          "flags": "\"-gcc-toolchain\" \"/home/maxll/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-I.\" \"-I../../../../nativeCommon/Include\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/android/native_app_glue\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/cxx-stl/system/include\" \"-I/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/src/main/jni\" \"-DANDROID\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/maxll/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/include\""
+        },
+        {
+          "src": "/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/src/main/jni/../../../../nativeCommon/Source/esUtil.c",
+          "flags": "\"-gcc-toolchain\" \"/home/maxll/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-I.\" \"-I../../../../nativeCommon/Include\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/android/native_app_glue\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/cxx-stl/system/include\" \"-I/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/src/main/jni\" \"-DANDROID\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/maxll/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/include\""
+        },
+        {
+          "src": "/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/src/main/jni/glesimpl.cpp",
+          "flags": "\"-gcc-toolchain\" \"/home/maxll/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-fno-exceptions\" \"-fno-rtti\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-I.\" \"-I../../../../nativeCommon/Include\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/android/native_app_glue\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/cxx-stl/system/include\" \"-I/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/src/main/jni\" \"-DANDROID\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/maxll/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/include\""
+        }
+      ],
+      "output": "/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libtriangle.so"
+    },
+    "android_native_app_glue-release-armeabi-v7a": {
+      "buildCommand": "/home/maxll/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-18 NDK_OUT\u003d/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/build/intermediates/ndkBuild/release/lib /home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libandroid_native_app_glue.a",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "android_native_app_glue",
+      "files": [
+        {
+          "src": "/home/maxll/Android/Sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c",
+          "flags": "\"-gcc-toolchain\" \"/home/maxll/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-I/home/maxll/Android/Sdk/ndk-bundle/sources/android/native_app_glue\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/maxll/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/include\""
+        }
+      ],
+      "output": "/home/maxll/AndroidProject/AndroidStudioProj/learnOpenGLES301/opengles301native/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libandroid_native_app_glue.a"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cCompilerExecutable": "/home/maxll/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+      "cppCompilerExecutable": "/home/maxll/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

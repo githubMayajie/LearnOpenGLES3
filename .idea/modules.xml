@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/helper/helper.iml" filepath="$PROJECT_DIR$/helper/helper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learnOpenGLES301.iml" filepath="$PROJECT_DIR$/learnOpenGLES301.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learnopengles10/learnopengles10.iml" filepath="$PROJECT_DIR$/learnopengles10/learnopengles10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learnopengles6/learnopengles6.iml" filepath="$PROJECT_DIR$/learnopengles6/learnopengles6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learnopengles6_vao/learnopengles6_vao.iml" filepath="$PROJECT_DIR$/learnopengles6_vao/learnopengles6_vao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learnopengles7/learnopengles7.iml" filepath="$PROJECT_DIR$/learnopengles7/learnopengles7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learnopengles8/learnopengles8.iml" filepath="$PROJECT_DIR$/learnopengles8/learnopengles8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learnpengles9/learnpengles9.iml" filepath="$PROJECT_DIR$/learnpengles9/learnpengles9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opengles301/opengles301.iml" filepath="$PROJECT_DIR$/opengles301/opengles301.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opengles301native/opengles301native.iml" filepath="$PROJECT_DIR$/opengles301native/opengles301native.iml" />
+    </modules>
+  </component>
+</project>
