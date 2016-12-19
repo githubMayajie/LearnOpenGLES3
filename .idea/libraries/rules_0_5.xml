@@ -10,6 +10,7 @@
       <root url="jar://$PROJECT_DIR$/opengles301/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/opengles301native/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/learnopengles10/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/learnopengles11/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/helper/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/jars/classes.jar!/" />
@@ -17,6 +18,7 @@
     </CLASSES>
     <JAVADOC />
     <SOURCES>
+      <root url="jar://$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/support/test/rules/0.5/rules-0.5-sources.jar!/" />
       <root url="jar://$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/support/test/rules/0.5/rules-0.5-sources.jar!/" />
       <root url="jar://$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/support/test/rules/0.5/rules-0.5-sources.jar!/" />
       <root url="jar://$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/support/test/rules/0.5/rules-0.5-sources.jar!/" />

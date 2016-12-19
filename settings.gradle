@@ -1,1 +1,1 @@
-include ':opengles301', ':opengles301native', ':learnopengles6_vao', ':learnopengles6', ':learnopengles7', ':learnopengles8', ':helper', ':learnpengles9', ':learnopengles10'
+include ':opengles301', ':opengles301native', ':learnopengles6_vao', ':learnopengles6', ':learnopengles7', ':learnopengles8', ':helper', ':learnpengles9', ':learnopengles10', ':learnopengles11'
